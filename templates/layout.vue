@@ -1,5 +1,4 @@
-<template>
-  <!-- Configure "view" prop for QLayout -->
+<template lang="pug">
   <q-layout>
     <q-toolbar slot="header">
       <!-- opens drawer below
@@ -63,11 +62,12 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {}
   }
 }
 </script>
 
 <style>
+
 </style>
